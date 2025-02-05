@@ -5,12 +5,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Time Table</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
+    <h1>
+        <center>Information and Communication Technology (Div-2)</center>
+    </h1>
     <div>
         <table border="3">
-            <tr>
+
+            <tr class="heading">
                 <th>Day</th>
                 <th>8:00-9:00</th>
                 <th>9:00-10:00</th>
@@ -25,33 +30,33 @@
                 <th>8:00-19:00</th>
             </tr>
             <tr>
-                <td rowspan="2">
+                <td rowspan="2" class="day">
                     <center>Monday</center>
                 </td>
                 <td></td>
-                <td colspan="2">
+                <td colspan="2" class="monday">
                     <center>Embedded System Lab</center>
                     <center><strong>(H5)</strong></center>
                     <center><strong>F-204</strong></center>
                 </td>
-                <td rowspan="2">
+                <td rowspan="2" class="monday">
                     <center>Ai Systems</center>
                     <center><strong>(H4H5H6)</strong></center>
                     <center><strong>F-404</strong></center>
                 </td>
                 <td rowspan="2"></td>
-                <td rowspan="2">
+                <td rowspan="2" class="monday">
                     <center>Embedded Systems</center>
                     <center><strong>(H4H5H6)</strong></center>
                     <center><strong>E-201</strong></center>
                 </td>
-                <td colspan="2">
+                <td colspan="2" class="monday">
                     <center>Machine Learning Lab</center>
                     <center><strong>(H4H5H6)</strong></center>
                     <center><strong>E-214</strong></center>
                 </td>
                 <td rowspan="2"></td>
-                <td rowspan="2" colspan="2">
+                <td rowspan="2" colspan="2" class="monday">
                     <center>Open Elective</center>
                 </td>
 
@@ -59,12 +64,12 @@
 
             <tr>
                 <td></td>
-                <td colspan="2">
+                <td colspan="2" class="monday">
                     <center>Cloud Architecture and Services</center>
                     <center><strong>(H4)</strong></center>
                     <center><strong>E-212</strong></center>
                 </td>
-                <td colspan="2">
+                <td colspan="2" class="monday">
                     <center>Deep and Reinforcement Learning Lab</center>
                     <center><strong>(H4H5H6)</strong></center>
                     <center><strong>E-212</strong></center>
@@ -72,21 +77,21 @@
 
             </tr>
             <tr>
-                <td rowspan="3">
+                <td rowspan="3" class="day">
                     <center>Tuesday</center>
                 </td>
                 <td></td>
-                <td>
+                <td class="tuesday">
                     <center>Machine Learning</center>
                     <center><strong>(H4H5H6)</strong></center>
                     <center><strong>F-404</strong></center>
                 </td>
-                <td rowspan="3">
+                <td rowspan="3" class="tuesday">
                     <center>Ai Systems</center>
                     <center><strong>(H4H5H6)</strong></center>
                     <center><strong>F-404</strong></center>
                 </td>
-                <td colspan="2">
+                <td colspan="2" class="tuesday">
                     <center>Web Technology Lab</center>
                     <center><strong>(H4)</strong></center>
                     <center><strong>E-214</strong></center>
@@ -94,15 +99,15 @@
                 </td>
                 <td rowspan="3">
                 </td>
-                <td colspan="2" rowspan="3">
+                <td colspan="2" rowspan="3" class="tuesday">
                     <center>Communication Skills III</center>
                     <center><strong>(H4H5H6)</strong></center>
                     <center><strong>E-203</strong></center>
                 </td>
-                <td rowspan="3">
+                <td rowspan="3" class="tuesday">
                     <center>Open elective</center>
                 </td>
-                <td rowspan="3">
+                <td rowspan="3" class="tuesday">
                     CDC
                     <center><strong>(H4H5H6)</strong></center>
                     <center><strong>C-201/1</strong></center>
@@ -113,12 +118,12 @@
 
             <tr>
                 <td></td>
-                <td>
+                <td class="tuesday">
                     <center>Deep and Reinforcement Learning</center>
                     <center><strong>(H4H5H6)</strong></center>
                     <center><strong>E-202</strong></center>
                 </td>
-                <td colspan="2">
+                <td colspan="2" class="tuesday">
                     <center>Cloud Architecture and Services Lab</center>
                     <center><strong>(H5)</strong></center>
                     <center><strong>E-212</strong></center>
@@ -129,49 +134,49 @@
                 <td></td>
                 <td></td>
 
-                <td colspan="2">
+                <td colspan="2" class="tuesday">
                     <center>Embedded System Lab</center>
                     <center><strong>(H6)</strong></center>
                     <center><strong>F-204</strong></center>
                 </td>
             </tr>
             <tr>
-                <td rowspan="2">
+                <td rowspan="2" class="day">
                     <center>Wednesday</center>
                 </td>
                 <td></td>
-                <td colspan="2">
+                <td colspan="2" class="Wednesday">
                     <center>Web Technology Lab</center>
                     <center><strong>(H5H6)</strong></center>
                     <center><strong>E-214</strong></center>
                 </td>
-                <td>
+                <td class="Wednesday">
                     <center>Embedded Systems</center>
                     <center><strong>(H4H5H6)</strong></center>
                     <center><strong>E-203</strong></center>
                 </td>
-                <td>
+                <td class="Wednesday">
                     <center>Computer Communication and Networking</center>
                     <center><strong>(H4H5H6)</strong></center>
                     <center><strong>E-203</strong></center>
                 </td>
                 <td></td>
-                <td colspan="2">
+                <td colspan="2" class="Wednesday">
                     <center>Computer Communication and Networking Lab</center>
                     <center><strong>(H4H5H6)</strong></center>
                     <center><strong>E112-113</strong></center>
                 </td>
-                <td>
+                <td class="Wednesday">
                     <center>ICTV1-L</center>
                     <center><strong>(H4H5H6)</strong></center>
                     <center><strong>OE Room</strong></center>
                 </td>
-                <td>
+                <td class="Wednesday">
                     <center>Web Technology</center>
                     <center><strong>(H4H5H6)</strong></center>
                     <center><strong>E112-113</strong></center>
                 </td>
-                <td>
+                <td class="Wednesday">
                     <center>Machine Learning</center>
                     <center><strong>(H4H5H6)</strong></center>
                     <center><strong>E-201</strong></center>
@@ -188,44 +193,44 @@
                 <td></td>
                 <td></td>
                 <td></td>
-                <td>
+                <td class="Wednesday">
                     <center>Deep Reinforcement Learning </center>
                     <center><strong>(H4H5H6)</strong></center>
                     <center><strong>E-202</strong></center>
                 </td>
             </tr>
             <tr>
-                <td>
+                <td class="day">
                     <center>Thursday</center>
                 </td>
                 <td></td>
-                <td>
+                <td class="Thursday">
                     <center>Cloud Architecture and Services</center>
                     <center><strong>(H4H5H6)</strong></center>
                     <center><strong>E201</strong></center>
                 </td>
-                <td>
+                <td class="Thursday">
                     <center>Computer Communication and Networking</center>
                     <center><strong>(H4H5H6)</strong></center>
                     <center><strong>F-404</strong></center>
                 </td>
-                <td colspan="2">
+                <td colspan="2" class="Thursday">
                     <center>Ai Systems Lab</center>
                     <center><strong>(H4H5H6)</strong></center>
                     <center><strong>E112-113</strong></center>
                 </td>
                 <td></td>
-                <td colspan="2">
+                <td colspan="2" class="Thursday">
                     <center>ICTV2-P</center>
                     <center><strong>(H4H5H6)</strong></center>
                     <center><strong>OE Room</strong></center>
                 </td>
-                <td>
+                <td class="Thursday">
                     <center>ICTV1-L</center>
                     <center><strong>(H4H5H6)</strong></center>
                     <center><strong>OE Room</strong></center>
                 </td>
-                <td>
+                <td class="Thursday">
                     <center>Web Technology</center>
                     <center><strong>(H4H5H6)</strong></center>
                     <center><strong>E-204</strong></center>
@@ -233,33 +238,33 @@
                 <td></td>
 
             </tr>
-            <tr>
-                <td rowspan="2">
+            <tr class="fri">
+                <td rowspan="2" class="day">
                     <center>Friday</center>
                 </td>
                 <td></td>
-                <td>
+                <td class="Friday">
                     <center>Ai Systems</center>
                     <center><strong>(H4H5H6)</strong></center>
                     <center><strong>E-201</strong></center>
                 </td>
-                <td>
+                <td class="Friday">
                     <center>Computer Communication and Networking</center>
                     <center><strong>(H4H5H6)</strong></center>
                     <center><strong>E-203</strong></center>
                 </td>
-                <td>
+                <td class="Friday">
                     <center>Embedded Systems</center>
                     <center><strong>(H4H5H6)</strong></center>
                     <center><strong>E-203</strong></center>
                 </td>
                 <td></td>
-                <td>
+                <td class="Friday">
                     <center>Cloud Architecture and Services</center>
                     <center><strong>(H4H5H6)</strong></center>
                     <center><strong>E-201</strong></center>
                 </td>
-                <td colspan="2">
+                <td colspan="2" class="Friday">
                     <center>Cloud Architecture and Services</center>
                     <center><strong>(H6)</strong></center>
                     <center><strong>E-212</strong></center>
@@ -277,7 +282,7 @@
                 <td></td>
                 <td></td>
                 <td></td>
-                <td colspan="2">
+                <td colspan="2" class="Friday">
                     <center>Embedded Systems Lab</center>
                     <center><strong>(H4)</strong></center>
                     <center><strong>F-204</strong></center>
@@ -286,7 +291,6 @@
                 <td></td>
                 <td></td>
             </tr>
-
 
 
 
