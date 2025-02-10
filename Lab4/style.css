@@ -1,0 +1,79 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.heading{
+    background-color: black;
+    background:linear-gradient(45deg,#9AA6B2,#BCCCDC,#D9EAFD,#F8FAFC)
+}
+#heading{
+    gap: 20px;
+    background: linear-gradient(45deg,#9AA6B2,#BCCCDC,#D9EAFD,#F8FAFC);
+    align-items: center;
+    padding-top: 15px;
+    display: flex;
+    height: 250px;
+    width: 100%;
+    background-color:black;
+}
+.pfp{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    object-fit:cover;
+    display:block;
+}
+.h1{
+    font-size: 40px;
+    color:#03346E;
+    padding-bottom: 50px;
+}
+.h2{
+    font-size: 20px;
+    color:#03346E;
+    padding-bottom: 50px;
+}
+.info{
+    display: flex;
+    margin-top: 50px;
+    flex-direction: column;
+}
+.logo{
+    padding-left: 50px;
+    display: flex;
+    align-items: center;
+    color:rgb(21, 21, 20);
+    font-size: 20px;
+    gap: 10px;
+    text-align: center;
+}
+.linkedin{
+background-color:white;
+text-align: center;
+width: 25px;
+height: 25px;
+border-radius: 50%;
+object-fit: cover;
+}
+.sidebar{
+    display: flex;
+    
+    background: linear-gradient(45deg,grey,#A9BFA8,#BCCCDC);
+    height: 500px;
+}
+.main{
+    display: flex;
+    
+}
+.content{
+    width:100%;
+    background: linear-gradient(45deg,grey,#A9BFA8);
+}
+a{
+    text-decoration: none;
+    
+}
+.sidenames{
+    margin-top: 20px;
+    
+}
