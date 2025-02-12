@@ -13,7 +13,6 @@
     padding-top: 15px;
     display: flex;
     height: 250px;
-    width: 100%;
     background-color:black;
 }
 .pfp{
@@ -56,8 +55,6 @@ border-radius: 50%;
 object-fit: cover;
 }
 .sidebar{
-    display: flex;
-    
     background: linear-gradient(45deg,grey,#A9BFA8,#BCCCDC);
     height: 500px;
 }
@@ -70,10 +67,17 @@ object-fit: cover;
     background: linear-gradient(45deg,grey,#A9BFA8);
 }
 a{
+    color:#03346E;
+    margin:5px;
+    display: block;
     text-decoration: none;
     
 }
 .sidenames{
     margin-top: 20px;
     
+}
+iframe{
+    height: 60vh;
+    width:60vw;
 }
