@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Updated Background Color for the Whole Page */
+body {
+    background-color: #BEE3E3;
+    /* Teal Background */
+    padding: 20px;
+}
+
+/* Form Container */
+.container {
+    max-width: 700px;
+    margin: auto;
+    background: white;
+    /* Form Background is White */
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.15);
+    transition: transform 0.2s ease-in-out;
+}
+
+.container:hover {
+    transform: translateY(-5px);
+}
+
+/* Updated Heading Color */
+h1 {
+    color: #008080;
+    /* Dark Red */
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+/* Form Fields */
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 600;
+    color: #333;
+    font-size: 16px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="file"],
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+    outline: none;
+    transition: all 0.3s ease-in-out;
+}
+
+textarea {
+    resize: none;
+    height: 100px;
+    overflow-y: auto;
+}
+
+input:focus,
+textarea:focus {
+    border-color: #c0392b;
+    box-shadow: 0 0 8px rgba(192, 57, 43, 0.2);
+}
+
+/* Updated Submit Button */
+button {
+    background: #008080;
+    /* Teal Green */
+    color: white;
+    border: none;
+    padding: 14px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+    font-weight: 600;
+    text-transform: uppercase;
+    transition: 0.3s ease-in-out;
+}
+
+button:hover {
+    background: white;
+    color: #008080;
+    border: 2px solid #008080;
+    box-shadow: 0px 3px 10px rgba(0, 128, 128, 0.3);
+}
+
+/* File Preview */
+.file-preview {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #666;
+    font-style: italic;
+}
+
+/* Star Rating - Increased Size */
+.star-rating {
+    display: flex;
+    flex-direction: row-reverse;
+    font-size: 40px;
+    /* Increased Size */
+    gap: 8px;
+    justify-content: center;
+}
+
+.star-rating input {
+    display: none;
+}
+
+.star-rating label {
+    cursor: pointer;
+    color: #bbb;
+    transition: color 0.2s ease-in-out;
+}
+
+.star-rating label:before {
+    content: '★';
+}
+
+.star-rating input:checked~label {
+    color: #ffd700;
+}
+
+.star-rating label:hover,
+.star-rating label:hover~label {
+    color: #ffcc00;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    .container {
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    .star-rating {
+        font-size: 35px;
+        /* Slightly smaller on small screens */
+    }
+}

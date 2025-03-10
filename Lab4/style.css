@@ -3,6 +3,8 @@
     margin: 0;
 }
 .heading{
+    border:2px grey solid;
+    border-radius: 20px;
     background-color: black;
     background:linear-gradient(45deg,#9AA6B2,#BCCCDC,#D9EAFD,#F8FAFC)
 }
@@ -55,14 +57,21 @@ border-radius: 50%;
 object-fit: cover;
 }
 .sidebar{
+    margin-top: 10px;
+    border:2px grey solid;
+    border-radius: 10px;
     background: linear-gradient(45deg,grey,#A9BFA8,#BCCCDC);
     height: 500px;
 }
 .main{
+    gap: 5px;
     display: flex;
     
 }
 .content{
+    margin-top: 10px;
+    border:2px grey solid;
+    border-radius: 10px;
     width:100%;
     background: linear-gradient(45deg,grey,#A9BFA8);
 }
